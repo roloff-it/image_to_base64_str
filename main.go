@@ -8,6 +8,8 @@ import (
 	"os"
 )
 
+// Image to base64 string
+
 func main() {
 	var image = ImageToBase64("/home/lard/GolandProjects/exercises/man.png")
 	fmt.Println(image)
